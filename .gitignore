@@ -1,0 +1,101 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# IDEs and Editors
+## VS Code
+.vscode/
+.history/
+
+## IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+## Eclipse
+.classpath
+.project
+.settings/
+target/
+
+## NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment and IDE files
+.env
+*.swp
+*.swo
+
+# Specific Files for Other Tools
+cucumber-report-html/
+cucumber-report-json/
+cucumber-reports/
+
+# Generated files
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+
+# Reports
+*.html
+*.xml
+*.json
+
+# System Files
+*.bak
+*.tmp
+
+# Misc
+*.DS_Store
+._*
+
+# Node Modules (if any)
+node_modules/
+
+# Coverage
+.coverage
+coverage/
+
+# Test Reports
+/test-output/
+test-output/
+
+# Ignore Maven Wrapper files
+.mvn/
