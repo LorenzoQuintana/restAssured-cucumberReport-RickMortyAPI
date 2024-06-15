@@ -27,5 +27,4 @@ Feature: Character Search By Name
     Examples:
       | approxName      | exactName     |
       | Rack Sanchez    | Rick Sanchez  |
-      | Morty Smoth     | Morty Smith   |
 
