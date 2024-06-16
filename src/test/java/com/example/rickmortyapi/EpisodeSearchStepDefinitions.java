@@ -1,21 +1,25 @@
 package com.example.rickmortyapi;
 
+import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
-import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
-import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 public class EpisodeSearchStepDefinitions {
 
     private Response response;
 
+    @Before
+    public void setup() {
+        baseURI = "https://rickandmortyapi.com/api";
+    }
+
     @Given("the user knows the episode ID {string}")
     public void the_user_has_the_episode_id(String id) {
-        RestAssured.baseURI = "https://rickandmortyapi.com/api";
         response = given()
             .pathParam("id", id)
             .when()

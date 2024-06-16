@@ -1,5 +1,6 @@
 package com.example.rickmortyapi;
 
+import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
@@ -9,6 +10,11 @@ import static org.hamcrest.Matchers.*;
 public class CharacterDetailsStepDefinitions {
 
     private int characterId;
+
+    @Before
+    public void setup() {
+        baseURI = "https://rickandmortyapi.com/api";
+    }
 
     @Given("the user has the ID {string}")
     public void the_user_has_the_id(String id) {
@@ -20,7 +26,7 @@ public class CharacterDetailsStepDefinitions {
         given()
             .pathParam("id", characterId)
         .when()
-            .get("https://rickandmortyapi.com/api/character/{id}")
+            .get("/character/{id}")
         .then()
             .statusCode(200);
     }
@@ -30,7 +36,7 @@ public class CharacterDetailsStepDefinitions {
         given()
             .pathParam("id", Integer.parseInt(id))
         .when()
-            .get("https://rickandmortyapi.com/api/character/{id}")
+            .get("/character/{id}")
         .then()
             .statusCode(200)
             .body("id", equalTo(Integer.parseInt(id)));
@@ -41,7 +47,7 @@ public class CharacterDetailsStepDefinitions {
         given()
             .pathParam("id", characterId)
         .when()
-            .get("https://rickandmortyapi.com/api/character/{id}")
+            .get("/character/{id}")
         .then()
             .statusCode(200)
             .body("name", notNullValue())
@@ -54,3 +60,4 @@ public class CharacterDetailsStepDefinitions {
             .body("episode", notNullValue());
     }
 }
+

@@ -1,21 +1,25 @@
 package com.example.rickmortyapi;
 
+import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
-import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
-import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 public class CharacterSearchByStatusStepDefinitions {
 
-private Response response;
+    private Response response;
+
+    @Before
+    public void setup() {
+        baseURI = "https://rickandmortyapi.com/api";
+    }
 
     @Given("the user filters characters by status {string}")
     public void the_user_filters_characters_by_status(String status) {
-        RestAssured.baseURI = "https://rickandmortyapi.com/api";
         response = given()
             .queryParam("status", status)
             .when()
@@ -32,3 +36,4 @@ private Response response;
         response.then().body("results.status", everyItem(equalToIgnoringCase(status)));
     }
 }
+
