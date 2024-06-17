@@ -1,3 +1,4 @@
+@Character @Filter @Status @Regression @Smoke
 Feature: Filter Characters by Status
 
   Scenario Outline: Filter characters by status

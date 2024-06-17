@@ -1,3 +1,4 @@
+@Episode @Details @Regression @Smoke
 Feature: Get Episode by ID
 
   Scenario Outline: Get details of an episode by ID
