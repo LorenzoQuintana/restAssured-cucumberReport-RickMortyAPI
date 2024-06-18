@@ -1,0 +1,6 @@
+com\example\rickmortyapi\CharacterDetailsStepDefinitions.class
+com\example\rickmortyapi\CharacterSearchStepDefinitions.class
+com\example\rickmortyapi\CharacterSearchByStatusStepDefinitions.class
+com\example\rickmortyapi\ReportGenerator.class
+com\example\rickmortyapi\EpisodeSearchStepDefinitions.class
+com\example\rickmortyapi\RunCucumberTest.class

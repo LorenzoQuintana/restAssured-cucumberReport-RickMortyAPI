@@ -1,0 +1,1259 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-16T09:21:38.581Z",
+        "before": [
+          {
+            "result": {
+              "duration": 335000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterDetailsStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchByStatusStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Search by full name",
+        "description": "",
+        "id": "character-search-by-name;search-by-full-name;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user enters \"Rick Sanchez\" in the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rick Sanchez\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.example.rickmortyapi.CharacterSearchStepDefinitions.the_user_enters_in_the_search_field(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2147000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user presses the search button",
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchStepDefinitions.the_user_presses_the_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 329000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the system displays details for \"Rick Sanchez\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rick Sanchez\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.example.rickmortyapi.CharacterSearchStepDefinitions.the_system_displays_details_for(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 390000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the details include name, status, location, image, and episodes",
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchStepDefinitions.the_details_include_name_status_location_image_and_episodes()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-16T09:21:41.850Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterDetailsStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchByStatusStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Search by full name",
+        "description": "",
+        "id": "character-search-by-name;search-by-full-name;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user enters \"Morty Smith\" in the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Morty Smith\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.example.rickmortyapi.CharacterSearchStepDefinitions.the_user_enters_in_the_search_field(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 432000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user presses the search button",
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchStepDefinitions.the_user_presses_the_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 297000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the system displays details for \"Morty Smith\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Morty Smith\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.example.rickmortyapi.CharacterSearchStepDefinitions.the_system_displays_details_for(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 345000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the details include name, status, location, image, and episodes",
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchStepDefinitions.the_details_include_name_status_location_image_and_episodes()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-16T09:21:42.931Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterDetailsStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchByStatusStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Search by partial name",
+        "description": "",
+        "id": "character-search-by-name;search-by-partial-name;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user enters \"Rick\" in the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rick\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.example.rickmortyapi.CharacterSearchStepDefinitions.the_user_enters_in_the_search_field(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 405000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user presses the search button",
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchStepDefinitions.the_user_presses_the_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 311000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the system displays a list of characters that include \"Rick\" in their name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rick\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.example.rickmortyapi.CharacterSearchStepDefinitions.the_system_displays_a_list_of_characters_that_include_in_their_name(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 290000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "each character in the list shows name, status, location, image, and episodes",
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchStepDefinitions.each_character_in_the_list_shows_name_status_location_image_and_episodes()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-16T09:21:43.944Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterDetailsStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchByStatusStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Search by partial name",
+        "description": "",
+        "id": "character-search-by-name;search-by-partial-name;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user enters \"Morty\" in the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Morty\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.example.rickmortyapi.CharacterSearchStepDefinitions.the_user_enters_in_the_search_field(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 382000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user presses the search button",
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchStepDefinitions.the_user_presses_the_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 260000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the system displays a list of characters that include \"Morty\" in their name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Morty\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.example.rickmortyapi.CharacterSearchStepDefinitions.the_system_displays_a_list_of_characters_that_include_in_their_name(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 351000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "each character in the list shows name, status, location, image, and episodes",
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchStepDefinitions.each_character_in_the_list_shows_name_status_location_image_and_episodes()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-16T09:21:44.941Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterDetailsStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchByStatusStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Search with no exact match",
+        "description": "",
+        "id": "character-search-by-name;search-with-no-exact-match;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user enters \"Rack Sanchez\" in the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rack Sanchez\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.example.rickmortyapi.CharacterSearchStepDefinitions.the_user_enters_in_the_search_field(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 395000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user presses the search button",
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchStepDefinitions.the_user_presses_the_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 413000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "the system offers suggestions close to \"Rick Sanchez\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rick Sanchez\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.example.rickmortyapi.CharacterSearchStepDefinitions.the_system_offers_suggestions_close_to(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Character Search By Name",
+    "description": "",
+    "id": "character-search-by-name",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/resources/com/example/rickmortyapi/CharacterByName.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-16T09:21:45.755Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterDetailsStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchByStatusStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Filter characters by status",
+        "description": "",
+        "id": "filter-characters-by-status;filter-characters-by-status;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 252000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user filters characters by status \"alive\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"alive\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.rickmortyapi.CharacterSearchByStatusStepDefinitions.the_user_filters_characters_by_status(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user presses the search button for status",
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchByStatusStepDefinitions.the_user_presses_the_search_button_for_status()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the system displays a list of characters with status \"alive\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"alive\"",
+                  "offset": 53
+                }
+              ],
+              "location": "com.example.rickmortyapi.CharacterSearchByStatusStepDefinitions.the_system_displays_a_list_of_characters_with_status(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-16T09:21:46.054Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterDetailsStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchByStatusStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Filter characters by status",
+        "description": "",
+        "id": "filter-characters-by-status;filter-characters-by-status;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 313000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user filters characters by status \"dead\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dead\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.rickmortyapi.CharacterSearchByStatusStepDefinitions.the_user_filters_characters_by_status(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user presses the search button for status",
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchByStatusStepDefinitions.the_user_presses_the_search_button_for_status()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the system displays a list of characters with status \"dead\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dead\"",
+                  "offset": 53
+                }
+              ],
+              "location": "com.example.rickmortyapi.CharacterSearchByStatusStepDefinitions.the_system_displays_a_list_of_characters_with_status(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-16T09:21:46.399Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterDetailsStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchByStatusStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Filter characters by status",
+        "description": "",
+        "id": "filter-characters-by-status;filter-characters-by-status;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 299000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user filters characters by status \"unknown\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"unknown\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.example.rickmortyapi.CharacterSearchByStatusStepDefinitions.the_user_filters_characters_by_status(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user presses the search button for status",
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchByStatusStepDefinitions.the_user_presses_the_search_button_for_status()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the system displays a list of characters with status \"unknown\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"unknown\"",
+                  "offset": 53
+                }
+              ],
+              "location": "com.example.rickmortyapi.CharacterSearchByStatusStepDefinitions.the_system_displays_a_list_of_characters_with_status(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Filter Characters by Status",
+    "description": "",
+    "id": "filter-characters-by-status",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/resources/com/example/rickmortyapi/CharacterByStatus.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-16T09:21:46.713Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterDetailsStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchByStatusStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Get details by ID",
+        "description": "",
+        "id": "character-details-by-id;get-details-by-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user has the ID \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.example.rickmortyapi.CharacterDetailsStepDefinitions.the_user_has_the_id(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 278000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user requests details for the character",
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterDetailsStepDefinitions.the_user_requests_details_for_the_character()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 332000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the system displays details for the character with ID \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.example.rickmortyapi.CharacterDetailsStepDefinitions.the_system_displays_details_for_the_character_with_id(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 322000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the details include name, status, species, gender, origin, location, image, and episodes",
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterDetailsStepDefinitions.the_details_include_name_status_species_gender_origin_location_image_and_episodes()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-16T09:21:47.651Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterDetailsStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchByStatusStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Get details by ID",
+        "description": "",
+        "id": "character-details-by-id;get-details-by-id;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user has the ID \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.example.rickmortyapi.CharacterDetailsStepDefinitions.the_user_has_the_id(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 286000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user requests details for the character",
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterDetailsStepDefinitions.the_user_requests_details_for_the_character()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 271000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the system displays details for the character with ID \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.example.rickmortyapi.CharacterDetailsStepDefinitions.the_system_displays_details_for_the_character_with_id(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 314000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the details include name, status, species, gender, origin, location, image, and episodes",
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterDetailsStepDefinitions.the_details_include_name_status_species_gender_origin_location_image_and_episodes()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Character Details By ID",
+    "description": "",
+    "id": "character-details-by-id",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/resources/com/example/rickmortyapi/CharacterDetailsByID.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-16T09:21:48.526Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterDetailsStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchByStatusStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Get details of an episode by ID",
+        "description": "",
+        "id": "get-episode-by-id;get-details-of-an-episode-by-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 271000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user knows the episode ID \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.the_user_has_the_episode_id(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user requests details for the episode",
+            "match": {
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.the_user_requests_details_for_the_episode()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the system displays details for the episode with ID \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 52
+                }
+              ],
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.the_system_displays_details_for_the_episode_with_id(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the details include name, air date, and characters",
+            "match": {
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.the_details_include_name_air_date_and_characters()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-16T09:21:48.817Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterDetailsStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchByStatusStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Get details of an episode by ID",
+        "description": "",
+        "id": "get-episode-by-id;get-details-of-an-episode-by-id;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 254000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user knows the episode ID \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.the_user_has_the_episode_id(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user requests details for the episode",
+            "match": {
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.the_user_requests_details_for_the_episode()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the system displays details for the episode with ID \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 52
+                }
+              ],
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.the_system_displays_details_for_the_episode_with_id(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the details include name, air date, and characters",
+            "match": {
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.the_details_include_name_air_date_and_characters()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-16T09:21:49.102Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterDetailsStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.CharacterSearchByStatusStepDefinitions.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Get details of an episode by ID",
+        "description": "",
+        "id": "get-episode-by-id;get-details-of-an-episode-by-id;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 274000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user knows the episode ID \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.the_user_has_the_episode_id(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user requests details for the episode",
+            "match": {
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.the_user_requests_details_for_the_episode()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the system displays details for the episode with ID \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 52
+                }
+              ],
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.the_system_displays_details_for_the_episode_with_id(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the details include name, air date, and characters",
+            "match": {
+              "location": "com.example.rickmortyapi.EpisodeSearchStepDefinitions.the_details_include_name_air_date_and_characters()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Get Episode by ID",
+    "description": "",
+    "id": "get-episode-by-id",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/resources/com/example/rickmortyapi/EpisodeByID.feature",
+    "tags": []
+  }
+]
