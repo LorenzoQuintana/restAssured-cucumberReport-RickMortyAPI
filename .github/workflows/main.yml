@@ -2,9 +2,9 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
@@ -21,6 +21,9 @@ jobs:
         java-version: '1.8'
         distribution: 'adopt'
 
+    - name: Install dependencies
+      run: mvn install -DskipTests
+
     - name: Build with Maven
       run: mvn clean install
 
@@ -35,3 +38,4 @@ jobs:
       with:
         name: cucumber-reports
         path: target/cucumber-html-reports
+
