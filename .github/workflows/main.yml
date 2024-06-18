@@ -8,7 +8,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -23,20 +22,23 @@ jobs:
 
     - name: Install dependencies
       run: mvn install -DskipTests
+      working-directory: ./rickMortyAPITests
 
     - name: Build with Maven
       run: mvn clean install
+      working-directory: ./rickMortyAPITests
 
     - name: Run tests
       run: mvn test
+      working-directory: ./rickMortyAPITests
 
     - name: Generate cucumber report
       run: mvn verify
+      working-directory: ./rickMortyAPITests
 
     - name: Archive test reports
       uses: actions/upload-artifact@v4
       with:
         name: cucumber-reports
-        path: target/cucumber-html-reports
-
+        path: ./rickMortyAPITests/target/cucumber-html-reports
 
